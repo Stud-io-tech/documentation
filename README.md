@@ -101,3 +101,16 @@ O uso de atas de reuniões e documentação, além de conversas informais via Wh
 
 #### Entrega Contínua:
 O código, testes e documentação que esteja de acordo com os documentos iniciais do incremento se fazem presentes.
+
+### Papéis e responsabilidades
+| Quem | Art. Entrada | Atividade | Art. Saída |
+| --- | --- | --- | --- |
+| Dono do produto | Com a ideia do projeto | Faz o refinamento | Para gerar o escopo |
+| Dono do produto e Gerente de projeto | Com o escopo | Faz o planejamento do processo | Para definir as etapas  |
+| Dono do produto e Gerente de projeto  | Com o escopo | Faz refinamento  | Para gerar o escopo de uma iteração |
+| Gerente de projeto | Com o escopo de iteração | Faz o levantamento dos requisitos | Para criar issues que serão implementadas |
+| Analista de banco de dados | Com o escopo de iteração e as issues | Faz o planejamento do banco de dados | Para gerar os diagramas, o código do banco de dados e segurança do mesmo |
+| Design  | Com as issues especificas | Faz as telas e o fluxo de interação | Para criar identidade visual, servindo como apoio para os desenvolvedores e como expectativa para o sistema final |
+| Desenvolvedor | Com as issues especificas, identidade visual e diagrama/código do banco de dados | Faz o desenvolvimento da issue selecionada | Para ter código, testes unitários e integração do que foi demandado naquela issue |
+| Análista de qualidade | Com a issue, código, testes unitários e integração | Faz planejamento de testes e critérios | Para ter os testes de integração e de sistema, além da inspeção e relatórios dos mesmos |
+| Devops  | Com a issue e código que foi aprovado pelo análista de qualidade | Faz a implantação | Para implementar a(s) nova(s) funcionalidade(s) no sistema em produção |
