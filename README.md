@@ -114,3 +114,33 @@ O código, testes e documentação que esteja de acordo com os documentos inicia
 | Desenvolvedor | Com as issues especificas, identidade visual e diagrama/código do banco de dados | Faz o desenvolvimento da issue selecionada | Para ter código, testes unitários e integração do que foi demandado naquela issue |
 | Análista de qualidade | Com a issue, código, testes unitários e integração | Faz planejamento de testes e critérios | Para ter os testes de integração e de sistema, além da inspeção e relatórios dos mesmos |
 | Devops  | Com a issue e código que foi aprovado pelo análista de qualidade | Faz a implantação | Para implementar a(s) nova(s) funcionalidade(s) no sistema em produção |
+
+## Gestão de Mudanças e Evolução do Projeto
+Foi selecionado o Github Project para o gerenciamento visual de tarefas. Onde foi escolhido o modelo Kanban com colunas padrão:
+- Backlog: Para tarefas, ideias e mudanças propostas.
+= To Do: Para tarefas aprovadas e priorizadas.
+- In Progress: Para tarefas em andamento.
+- Review: Para mudanças em revisão (ex.: Pull Requests).
+- Done: Para tarefas concluídas.
+
+### Gestão de Mudanças com Issues
+#### Propostas de Mudanças
+Cada solicitação de mudança ou evolução deve ser registrada como uma Issue no repositório. Exemplo de campos na Issue:
+- Título: Curto e descritivo.
+- Descrição: Detalhe do problema ou melhoria proposta, incluindo:
+  - Justificativa (Por que a mudança é necessária?).
+  - Objetivos esperados.
+  - Impacto potencial.
+- Rótulos (Labels): Classifique a Issue (ex.: bug, enhancement, feature, urgent).
+- Milestone: Relacione a Issue a um marco específico do projeto.
+- Responsável (Assignee): Atribua a Issue a um responsável.
+
+#### Análise e Priorização
+Revisão das Issues em reuniões regulares ou sprints. Avaliando:
+- O impacto da mudança nos objetivos do projeto.
+- A viabilidade técnica.
+- O custo e o esforço necessários.
+  
+Usando Labels para priorização (high-priority, low-priority, etc.).
+
+
