@@ -3,3 +3,5 @@
 O sistema deve ser mais flexivel e fácil de manter onde há os seus requisitos principais, ou seja, onde o sistema realmente resolve o problema se tratando assim da prova de conceito ou MVP.
 
 A escolha entre Composição e Herança impacta no desenvolvimento e manutenção dos componentes, se usarmos herança que não possuem uma especialização em um cenário que há muitas refatorações e atualizações as chances de erros e ocorrerem e mais código se reimplementado aumentam. Por outro lado, se usarmos composição em um cenário de classe muito parecidas, teremos um degrau a mais de configuração a ser feita e mais código terá em ambas as classes.
+
+Usando como exemplo os mesmos cenários retratados acima, os testes em ambos, mas principalmente, no primeiro caso terão um prazo de validade bem curto visto que sempre há modificações no mesmo.
