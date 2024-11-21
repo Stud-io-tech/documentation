@@ -28,14 +28,6 @@ O aplicativo conecta comerciantes e clientes, fornecendo uma plataforma unificad
 ### Gestão Empresarial: 
 Oferece funcionalidades que ajudam os empresários a gerenciar seus negócios, o que é típico de soluções voltadas para o setor corporativo.
 
-## Prova de conceito (MVP):
-
-Para validar o sistema, foi desenvolvida uma versão inicial que contempla apenas as funcionalidades essenciais do projeto, incluindo:
-- Cadastro, Login e logout do lojista;
-- Cadastro de lojas e produtos pelos lojistas;
-- Listagem de lojas e produtos para os clientes sem precisar estar logado;
-- Botão para finalizar pedidos pelo WhatsApp; 
-
 ## Clico de vida e Processo
 
 ### Escolha e Justificativa do ciclo de vida
@@ -143,4 +135,10 @@ Revisão das Issues em reuniões regulares ou sprints. Avaliando:
   
 Usando Labels para priorização (high-priority, low-priority, etc.).
 
+## Prova de conceito (MVP):
 
+Para validar o sistema, foi desenvolvida uma versão inicial que contempla apenas as funcionalidades essenciais do projeto, incluindo:
+- Cadastro, Login e logout do lojista;
+- Cadastro de lojas e produtos pelos lojistas;
+- Listagem de lojas e produtos para os clientes sem precisar estar logado;
+- Botão para finalizar pedidos pelo WhatsApp; 
