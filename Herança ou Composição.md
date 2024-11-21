@@ -1,4 +1,4 @@
-# Em um sistema corporativo, onde os componentes geralmente precisam ser flexíveis e fáceis de manter, como vocês acham que a escolha entre herança e composição pode impactar a maneira como os componentes interagem? E como isso afeta a facilidade e a confiabilidade dos testes de cada parte do sistema?
+## Em um sistema corporativo, onde os componentes geralmente precisam ser flexíveis e fáceis de manter, como vocês acham que a escolha entre herança e composição pode impactar a maneira como os componentes interagem? E como isso afeta a facilidade e a confiabilidade dos testes de cada parte do sistema?
 
 O sistema deve ser mais flexivel e fácil de manter onde há os seus requisitos principais, ou seja, onde o sistema realmente resolve o problema se tratando assim da prova de conceito ou MVP.
 
