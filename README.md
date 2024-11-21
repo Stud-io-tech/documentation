@@ -110,7 +110,7 @@ O código, testes e documentação que esteja de acordo com os documentos inicia
 ## Gestão de Mudanças e Evolução do Projeto
 Foi selecionado o Github Project para o gerenciamento visual de tarefas. Onde foi escolhido o modelo Kanban com colunas padrão:
 - Backlog: Para tarefas, ideias e mudanças propostas.
-= To Do: Para tarefas aprovadas e priorizadas.
+- To Do: Para tarefas aprovadas e priorizadas.
 - In Progress: Para tarefas em andamento.
 - Review: Para mudanças em revisão (ex.: Pull Requests).
 - Done: Para tarefas concluídas.
