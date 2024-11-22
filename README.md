@@ -58,10 +58,10 @@ Teste em pequenos ciclos: Cada incremento é testado individualmente para assegu
 #### Aperfeiçoamento Iterativo
 Esse estágio ocorre paralelamente ao desenvolvimento incremental e é focado em melhorias constantes.
 
-Coleta de feedback: Após cada entrega, obtém-se feedback dos stakeholders (lojistas, clientes e equipe de desenvolvimento).
-Exemplo: Um lojista pode sugerir melhorias na interface de cadastro de produtos ou no fluxo de finalização de pedidos.
-Ajustes baseados em aprendizado: Identificam-se problemas ou pontos de melhoria, e eles são abordados nas iterações seguintes.
-Refinamento de funcionalidades: Recursos já entregues podem ser aprimorados com base no feedback e nas métricas de uso.
+- Coleta de feedback: Após cada entrega, obtém-se feedback dos stakeholders (lojistas, clientes e equipe de desenvolvimento).
+- Exemplo: Um lojista pode sugerir melhorias na interface de cadastro de produtos ou no fluxo de finalização de pedidos.
+- Ajustes baseados em aprendizado: Identificam-se problemas ou pontos de melhoria, e eles são abordados nas iterações seguintes.
+- Refinamento de funcionalidades: Recursos já entregues podem ser aprimorados com base no feedback e nas métricas de uso.
 Exemplo: Melhorar a experiência do cliente ao filtrar produtos ou lojas.
 
 #### Entrega Contínua
