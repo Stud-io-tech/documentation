@@ -44,9 +44,8 @@ Exemplo:
   - Incremento 2: Cadastro de produtos.
   - Incremento 3: Exibição de lojas e produtos para clientes.
   - Incremento 4: Botão para finalização de pedidos via WhatsApp.
-  - **Criação do backlog:** Lista de tarefas detalhadas para cada incremento.
-**Priorização das funcionalidades:**
- - Recursos mais críticos são desenvolvidos primeiro, para garantir que a aplicação tenha valor desde as primeiras entregas.
+- **Criação do backlog:** Lista de tarefas detalhadas para cada incremento.
+- **Priorização das funcionalidades:** Recursos mais críticos são desenvolvidos primeiro, para garantir que a aplicação tenha valor desde as primeiras entregas.
 
 #### Desenvolvimento Incremental
 Cada incremento é tratado como uma entrega funcional do sistema, adicionando progressivamente novos recursos.
