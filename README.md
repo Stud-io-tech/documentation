@@ -50,10 +50,10 @@ Exemplo:
 #### Desenvolvimento Incremental
 Cada incremento é tratado como uma entrega funcional do sistema, adicionando progressivamente novos recursos.
 
-Entrega de módulos independentes: Cada incremento inclui o desenvolvimento, teste e entrega de funcionalidades que podem operar de forma independente.
+- Entrega de módulos independentes: Cada incremento inclui o desenvolvimento, teste e entrega de funcionalidades que podem operar de forma independente.
 Exemplo: Mesmo que as avaliações dos usuários ainda não sejam implementadas, o sistema de cadastro e exibição de produtos já estará funcionando.
-Integração contínua: A cada incremento, as novas funcionalidades são integradas ao sistema existente, garantindo compatibilidade e estabilidade.
-Teste em pequenos ciclos: Cada incremento é testado individualmente para assegurar que funcione conforme esperado antes de passar para o próximo.
+- Integração contínua: A cada incremento, as novas funcionalidades são integradas ao sistema existente, garantindo compatibilidade e estabilidade.
+- Teste em pequenos ciclos: Cada incremento é testado individualmente para assegurar que funcione conforme esperado antes de passar para o próximo.
 
 #### Aperfeiçoamento Iterativo
 Esse estágio ocorre paralelamente ao desenvolvimento incremental e é focado em melhorias constantes.
@@ -67,18 +67,18 @@ Exemplo: Melhorar a experiência do cliente ao filtrar produtos ou lojas.
 #### Entrega Contínua
 Ao final de cada incremento, o sistema é entregue em sua forma funcional, mesmo que esteja incompleto em termos de funcionalidades totais.
 
-Versões mínimas viáveis (MVP): Cada entrega é funcional e agrega valor ao usuário, permitindo que o sistema seja usado mesmo durante o desenvolvimento.
+- Versões mínimas viáveis (MVP): Cada entrega é funcional e agrega valor ao usuário, permitindo que o sistema seja usado mesmo durante o desenvolvimento.
 Exemplo: Uma versão inicial pode incluir apenas o cadastro de lojistas e a exibição de lojas para clientes.
-Validação no ambiente real: As versões são disponibilizadas para uso real, permitindo identificar problemas ou melhorias necessárias em condições práticas.
-Redução de riscos: A entrega contínua reduz o impacto de problemas, pois erros podem ser corrigidos antes de adicionar novos recursos.
+- Validação no ambiente real: As versões são disponibilizadas para uso real, permitindo identificar problemas ou melhorias necessárias em condições práticas.
+- Redução de riscos: A entrega contínua reduz o impacto de problemas, pois erros podem ser corrigidos antes de adicionar novos recursos.
 
 #### Adaptação e Escalabilidade
 A flexibilidade do modelo iterativo e incremental permite que o projeto acompanhe mudanças nas necessidades dos usuários ou do mercado.
 
-Adaptação a novas demandas: Durante o desenvolvimento, novas funcionalidades podem ser adicionadas ou priorizadas sem comprometer o que já foi entregue.
+- Adaptação a novas demandas: Durante o desenvolvimento, novas funcionalidades podem ser adicionadas ou priorizadas sem comprometer o que já foi entregue.
 Exemplo: Adicionar uma funcionalidade para avaliações de usuários com base em demandas do mercado.
-Escalabilidade do sistema: A arquitetura é projetada para crescer gradualmente, permitindo suportar mais lojistas, produtos e clientes à medida que o projeto evolui.
-Monitoramento contínuo: Métricas de uso e desempenho são monitoradas para ajustar o sistema conforme necessário.
+- Escalabilidade do sistema: A arquitetura é projetada para crescer gradualmente, permitindo suportar mais lojistas, produtos e clientes à medida que o projeto evolui.
+- Monitoramento contínuo: Métricas de uso e desempenho são monitoradas para ajustar o sistema conforme necessário.
 
 ### Rastreabilidade e controle
 
