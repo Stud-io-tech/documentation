@@ -34,7 +34,7 @@ As entregas são divididas conforme o EAP e devem ser realizadas em diferentes f
 - Avaliações de usuários em relação aos produtos ofertados não fazem parte do escopo.
 ## Restrições
 - O prazo total para conclusão do projeto é de 4 meses.
-- O orçamento não pode exceder o limite aprovado de R$ 50.000.
+- O orçamento não pode exceder o limite aprovado de R$ 130.000.
 - As ferramentas e frameworks utilizados devem ser compatíveis com o stack tecnológico existente (Laravel, Flutter, PostgreSQL).
 ## Premissas
 - Os stakeholders fornecerão feedback pontual durante as revisões de design.
@@ -51,4 +51,4 @@ Cada atividade do projeto depende de outras para ser concluída. Exemplos de dep
 - Design: Figma.
 - Gerenciamento: GitHub Projects, Issues, Milestones.
 - Desenvolvimento: Laravel 11, Flutter, PostgreSQL, Docker.
-- Testes: PHPUnit, Cypress.
+- Testes: PHPUnit, test, flutter_test, integration_test.
