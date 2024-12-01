@@ -1,6 +1,6 @@
 # Escopo do Projeto: MyFome
 ## Objetivo do Projeto
-Esse projeto tem como objetivo o desenvolvimento e entrega de um sistema de delivery para restaurantes, pizzarias, lanchonetes e fast-foods. Ao final do projeto, será entregue um software que consiga exibir as lojas disponiveis na região para qualquer cliente que acessar o aplicativo móvel, podendo o mesmo finalizar seu pedido no WhatsApp.
+Esse projeto tem como objetivo o desenvolvimento e entrega de um sistema de delivery para restaurantes, pizzarias, lanchonetes e fast-foods. Ao final do projeto, será entregue um software que consiga exibir as lojas devidamente cadastradas na região de onde o cliente está acessando o aplicativo móvel, podendo o mesmo finalizar seu pedido no WhatsApp.
 
 ## Entregas do Projeto
 As entregas são divididas conforme o EAP e devem ser realizadas em diferentes fases:
