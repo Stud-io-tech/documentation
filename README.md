@@ -107,10 +107,9 @@ O código, testes e documentação que esteja de acordo com os documentos inicia
 ### Papéis e responsabilidades
 | Quem | Art. Entrada | Atividade | Art. Saída |
 | --- | --- | --- | --- |
-| Dono do produto | Com a ideia do projeto | Faz o refinamento | Para gerar o escopo |
-| Dono do produto e Gerente de projeto | Com o escopo | Faz o planejamento do processo | Para definir as etapas  |
+| Dono do produto | Com o documento contendo a ideia do projeto | Faz o refinamento | Para gerar o escopo |
 | Dono do produto e Gerente de projeto  | Com o escopo | Faz refinamento  | Para gerar o escopo de uma iteração |
-| Gerente de projeto | Com o escopo de iteração | Faz o levantamento dos requisitos | Para criar issues que serão implementadas |
+| Dono do produto e Gerente de projeto | Com o escopo de iteração | Faz as requisitos funcionais ou histórias de usuários | Para criar issues que serão implementadas |
 | Analista de banco de dados | Com o escopo de iteração e as issues | Faz o planejamento do banco de dados | Para gerar os diagramas, o código do banco de dados e segurança do mesmo |
 | Design  | Com as issues especificas | Faz as telas e o fluxo de interação | Para criar identidade visual, servindo como apoio para os desenvolvedores e como expectativa para o sistema final |
 | Desenvolvedor | Com as issues especificas, identidade visual e diagrama/código do banco de dados | Faz o desenvolvimento da issue selecionada | Para ter código, testes unitários e integração do que foi demandado naquela issue |
