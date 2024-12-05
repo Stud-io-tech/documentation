@@ -12,4 +12,4 @@
   - Implementar as funcionalidades conforme definido no escopo da iteração e nas histórias de usuário.  
   - Garantir que o código entregue esteja alinhado aos requisitos e seja funcional.  
   - Participar ativamente das revisões para discutir problemas técnicos e propor soluções viáveis.  
-  - Adaptar o trabalho conforme mudanças ou ajustes identificados nas sessões de replanejamento.
+  - Adaptar o trabalho conforme mudanças ou ajustes identificados nas sessões de coletas de feedbacks.
