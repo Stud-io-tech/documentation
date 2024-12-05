@@ -9,7 +9,7 @@
   - Atenção à qualidade do código e aderência às melhores práticas de desenvolvimento.
    
 - **Responsabilidades:**  
-  - Implementar as funcionalidades conforme definido no plano de atendimento e nas histórias de usuário.  
+  - Implementar as funcionalidades conforme definido no escopo da iteração e nas histórias de usuário.  
   - Garantir que o código entregue esteja alinhado aos requisitos e seja funcional.  
   - Participar ativamente das revisões para discutir problemas técnicos e propor soluções viáveis.  
   - Adaptar o trabalho conforme mudanças ou ajustes identificados nas sessões de replanejamento.
