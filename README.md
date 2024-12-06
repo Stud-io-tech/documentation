@@ -104,17 +104,28 @@ O uso de atas de reuniões e documentação, além de conversas informais via Wh
 #### Entrega Contínua:
 O código, testes e documentação que esteja de acordo com os documentos iniciais do incremento se fazem presentes.
 
-### Papéis e responsabilidades
-| Quem | Art. Entrada | Atividade | Art. Saída |
-| --- | --- | --- | --- |
-| Dono do produto | Com uma ata de reunião | Faz o refinamento | Para gerar o escopo |
-| Dono do produto e Gerente de projeto  | Com o escopo | Faz refinamento  | Para gerar o escopo de uma iteração |
-| Dono do produto e Gerente de projeto | Com o escopo de iteração | Faz as requisitos funcionais ou histórias de usuários | Para criar issues que serão implementadas |
-| Analista de banco de dados | Com o escopo de iteração e as issues | Faz o planejamento do banco de dados | Para gerar os diagramas, o código do banco de dados e segurança do mesmo |
-| Design  | Com as issues especificas | Faz as telas e o fluxo de interação | Para criar identidade visual, servindo como apoio para os desenvolvedores e como expectativa para o sistema final |
-| Desenvolvedor | Com as issues especificas, identidade visual e diagrama/código do banco de dados | Faz o desenvolvimento da issue selecionada | Para ter código, testes unitários e integração do que foi demandado naquela issue |
-| Análista de qualidade | Com a issue, código, testes unitários e integração | Faz planejamento de testes e critérios | Para ter os testes de integração e de sistema, além da inspeção e relatórios dos mesmos |
-| Devops  | Com a issue e código que foi aprovado pelo análista de qualidade | Faz a implantação | Para implementar a(s) nova(s) funcionalidade(s) no sistema em produção |
+# Processo de Desenvolvimento
+---
+## Tabela de Atividades
+
+| **Fase**          | **(Entrada) Atividade (Saída)**                 | **Papel**                  |
+|-------------------|-----------------------------------------------|---------------------------|
+| **Planejamento**  | ([Contexto](/Processo/Artefatos/Contexto.md)) [**Refinar**](/Processo/Atividades/Refinar.md) ([Escopo](/Processo/Artefatos/Escopo.md)) | [Dono do Produto](/Processo/Papeis/Dono%20do%20produto.md)           |
+| **Planejamento**  | ([Escopo](/Processo/Artefatos/Escopo.md)) [**Criar/Ajustar Histórias de Usuário**](/Processo/Atividades/Criar%20ajustar%20historias%20de%20usuário.md) ([Histórias de Usuário](/Processo/Artefatos/Historia%20usuario.md)) | [Dono do Produto](/Processo/Papeis/Dono%20do%20produto.md)           |
+| **Planejamento**  | ([Histórias de Usuário](/Processo/Artefatos/Historia%20usuario.md)) [**Planejar**](/Processo/Atividades/Planejar.md) ([Plano de Atendimento](/Processo/Artefatos/Plano%20de%20atendimento.md)) | [Dono do Produto](/Processo/Papeis/Dono%20do%20produto.md)           |
+| **Desenvolvimento** | ([Plano de Atendimento](/Processo/Artefatos/Plano%20de%20atendimento.md)) [**Desenvolver**](/Processo/Atividades/Desenvolver.md) ([Produto _Incrementado_](/Processo/Artefatos/Produto%20incrementado.md)) | [Desenvolvedor](/Processo/Papeis/Desenvolvedor.md)  e [Análista de qualidade](/Processo/Papeis/Analista%20de%20qualidade.md)            |
+| **Desenvolvimento** | ([Produto _Incrementado_](/Processo/Artefatos/Produto%20incrementado.md)) [**Revisar/Replanejar**](/Processo/Atividades/Revisar%20planejar.md) ([Produto _Ajustado_](/Processo/Artefatos/Produto%20incrementado.md)) | [Dono do Produto](/Processo/Papeis/Dono%20do%20produto.md) e [Análista de Qualidade](/Processo/Papeis/Analista%20de%20qualidade.md) |
+
+---
+
+## Metas das Fases
+
+### 1. Planejamento
+**Meta:** Garantir que as necessidades do cliente sejam compreendidas, refinadas e priorizadas em pequenos incrementos funcionais (histórias de usuário), organizados em um plano claro de execução.
+
+### 2. Desenvolvimento
+**Meta:** Implementar as funcionalidades planejadas com qualidade, permitindo entregas incrementais e melhorias contínuas por meio de revisões e replanejamento.
+
 
 ## Gestão de Mudanças e Evolução do Projeto
 Foi selecionado o Github Project para o gerenciamento visual de tarefas. Onde foi escolhido o modelo Kanban com colunas padrão:
