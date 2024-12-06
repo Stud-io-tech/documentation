@@ -17,4 +17,4 @@ Para validar o sistema, foi desenvolvida uma versão inicial que contempla apena
 - Cadastro, Login e logout do lojista;
 - Cadastro de lojas e produtos pelos lojistas;
 - Listagem de lojas e produtos para os clientes sem precisar estar logado;
-- Botão para finalizar pedidos pelo WhatsApp; 
+- Redirecionamento para finalizar pedidos pelo WhatsApp; 
