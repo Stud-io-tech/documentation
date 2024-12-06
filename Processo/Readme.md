@@ -17,5 +17,8 @@
 ### 1. Planejamento
 **Meta:** Garantir que as necessidades do cliente sejam compreendidas, refinadas e priorizadas em pequenos incrementos funcionais (histórias de usuário), organizados em um plano claro de execução.
 
-### 2. Desenvolvimento
+### 2.Design
+**Meta:** Desenvolver uma experiência visual e interativa que alinhe os objetivos do projeto com as expectativas do usuário, incluindo identidade visual consistente, protótipos navegáveis e guias de estilo claros para garantir a coesão entre design e desenvolvimento.
+
+### 3. Desenvolvimento
 **Meta:** Implementar as funcionalidades planejadas com qualidade, permitindo entregas incrementais e melhorias contínuas por meio de revisões e replanejamento.
