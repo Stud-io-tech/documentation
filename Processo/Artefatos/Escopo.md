@@ -10,3 +10,11 @@ Por fim, o sistema opera no modelo SaaS (Software como Serviço), no qual os loj
 
 ## O que o projeto não é:
 O MyFome não será responsável pela gestão de entregas, cobranças ou realização de compras, ficando essas atividades sob a responsabilidade exclusiva de cada empresa. Além disso, inicialmente, não será disponibilizada a funcionalidade de avaliação por parte dos usuários em relação às lojas e produtos.
+
+## Prova de conceito (MVP):
+
+Para validar o sistema, foi desenvolvida uma versão inicial que contempla apenas as funcionalidades essenciais do projeto, incluindo:
+- Cadastro, Login e logout do lojista;
+- Cadastro de lojas e produtos pelos lojistas;
+- Listagem de lojas e produtos para os clientes sem precisar estar logado;
+- Botão para finalizar pedidos pelo WhatsApp; 
