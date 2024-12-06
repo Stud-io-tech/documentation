@@ -1,16 +1,14 @@
 # MyFome
 
 ## Uma Breve Descrição do Contexto / Problema
-
-Com base nas necessidades identificadas no setor de delivery voltado para micro e pequenos empreendedores de Fast Foods, pizzarias, lanchonetes, sorveterias e restaurantes localizados em cidades com até 40 mil habitantes, constatou-se a inexistência de um sistema unificado que facilite a presença online desses estabelecimentos. Partindo dessa premissa, nós da **Stud.io Tech** tivemos a ideia de desenvolver um sistema de catalogo para que esses comerciantes possam gerenciar seus produtos virtualmente. 
+Com base nas necessidades identificadas no setor de delivery voltado para micro e pequenos empreendedores de fast foods, pizzarias, lanchonetes, sorveterias e restaurantes localizados em cidades com até 40 mil habitantes, constatou-se a inexistência de um sistema unificado que facilite a presença online desses estabelecimentos. A escolha por cidades menores foi estratégica, considerando o menor custo inicial de tráfego no aplicativo, alinhado ao orçamento disponível para o projeto. Partindo dessa premissa, nós da Stud.io Tech desenvolvemos a ideia de um sistema de catálogo de produtos alimentícios, que permitirá que esses comerciantes possam exibir e gerenciar seus produtos virtualmente, melhorando sua visibilidade e facilitando o acesso dos clientes aos seus serviços.
 
 ## O que é o projeto:
-
 O MyFome é um aplicativo móvel desenvolvido para atender os clientes, permitindo que eles visualizem e filtrem as lojas cadastradas em sua cidade, além de explorar os produtos oferecidos por essas lojas. O cliente também pode finalizar suas compras ou pedidos de forma prática, diretamente pelo WhatsApp.
 
 Para os empresários, o aplicativo oferece ferramentas completas para gerenciar suas lojas, incluindo o cadastro e a administração de produtos, bem como o acompanhamento de pedidos e compras relacionados aos itens ofertados.
 
-Por fim, o sistema opera no modelo SaaS (Software como Serviço), no qual os lojistas aderem por meio de uma assinatura mensal no valor de R$70,00 para acessar e utilizar o serviço.
+Por fim, o sistema opera no modelo SaaS (Software como Serviço), no qual os lojistas aderem por meio de uma assinatura mensal sem valor inicialmente estipulado, para acessar e utilizar o serviço.
 
 ## O que o projeto não é:
 O MyFome não será responsável pela gestão de entregas, cobranças ou realização de compras, ficando essas atividades sob a responsabilidade exclusiva de cada empresa. Além disso, inicialmente, não será disponibilizada a funcionalidade de avaliação por parte dos usuários em relação às lojas e produtos.
@@ -41,10 +39,10 @@ O planejamento inicial é a base para garantir que o desenvolvimento seja eficie
   
 - **Definição de incrementos:** O projeto é dividido em pequenos incrementos, cada um correspondendo a um conjunto específico de funcionalidades que podem ser entregues de forma independente.
 Exemplo:
-  - Incremento 1: Cadastro de lojistas e lojas.
-  - Incremento 2: Cadastro de produtos.
-  - Incremento 3: Exibição de lojas e produtos para clientes.
-  - Incremento 4: Botão para finalização de pedidos via WhatsApp.
+  - Incremento 1: Cadastro, Login e logout do lojista;
+  - Incremento 2: Cadastro de lojas e produtos pelos lojistas;
+  - Incremento 3: Listagem de lojas e produtos para os clientes sem precisar estar logado;
+  - Incremento 4: Redirecionamento para finalizar pedidos pelo WhatsApp; 
     
 - **Criação do backlog:** Lista de tarefas detalhadas para cada incremento.
   
@@ -171,4 +169,4 @@ Para validar o sistema, foi desenvolvida uma versão inicial que contempla apena
 - Cadastro, Login e logout do lojista;
 - Cadastro de lojas e produtos pelos lojistas;
 - Listagem de lojas e produtos para os clientes sem precisar estar logado;
-- Botão para finalizar pedidos pelo WhatsApp; 
+- Redirecionamento para finalizar pedidos pelo WhatsApp; 
