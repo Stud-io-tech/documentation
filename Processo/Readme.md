@@ -8,7 +8,7 @@
 | **Planejamento**  | ([Escopo](/Processo/Artefatos/Escopo.md)) [**Criar/Ajustar Histórias de Usuário**](/Processo/Atividades/Criar%20ajustar%20historias%20de%20usuário.md) ([Histórias de Usuário](/Processo/Artefatos/Historia%20usuario.md)) | [Dono do Produto](/Processo/Papeis/Dono%20do%20produto.md)           |
 | **Planejamento**  | ([Histórias de Usuário](/Processo/Artefatos/Historia%20usuario.md)) [**Planejar**](/Processo/Atividades/Planejar.md) ([Plano de Atendimento](/Processo/Artefatos/Plano%20de%20atendimento.md)) | [Dono do Produto](/Processo/Papeis/Dono%20do%20produto.md)           |
 | **Desenvolvimento** | ([Plano de Atendimento](/Processo/Artefatos/Plano%20de%20atendimento.md)) [**Desenvolver**](/Processo/Atividades/Desenvolver.md) ([Produto _Incrementado_](/Processo/Artefatos/Produto%20incrementado.md)) | [Desenvolvedor](/Processo/Papeis/Desenvolvedor.md)  e [Análista de qualidade](/Processo/Papeis/Analista%20de%20qualidade.md)            |
-| **Desenvolvimento** | ([Produto _Incrementado_](/Processo/Artefatos/Produto%20incrementado.md)) [**Revisar/Replanejar**](/documentacao/processo/atividades/revisar.replanejar.md) ([Produto _Ajustado_](/documentacao/processo/artefatos/produto.incrementado.md) | [Dono do Produto](/documentacao/processo/papeis/dono.do.produto.md) e [Desenvolvedor](/documentacao/processo/papeis/desenvolvedor.md) |
+| **Desenvolvimento** | ([Produto _Incrementado_](/Processo/Artefatos/Produto%20incrementado.md)) [**Revisar/Replanejar**](/Processo/Atividades/Revisar%20planejar.md) ([Produto _Ajustado_](/Processo/Artefatos/Produto%20incrementado.md)) | [Dono do Produto](/Processo/Papeis/Dono%20do%20produto.md) e [Análista de Qualidade](/Processo/Papeis/Analista%20de%20qualidade.md) |
 
 ---
 
