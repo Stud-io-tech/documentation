@@ -5,5 +5,6 @@
 - **Homologação**: Se trata da linha de dev onde o código será testado em homologação, daqui as branchs das features será criadas e aqui elas devem sofrem o merge;
 - **Produção**: Se trata da linha (branch) main, onde o código aprovado na linha dev será adicionado a ela onde o servidor de produção sofrerá uma atualização automática;
 
-## Desenho
-![Drawing](https://github.com/user-attachments/assets/685fed55-d922-4a71-8628-e48d3d1320b4)
+## Diagrama do Fluxo de Mudanças
+
+![Diagrama do Fluxo de Mudanças](/Artefatos/Fluxo%20de%20mudanças.png)
