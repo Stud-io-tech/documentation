@@ -46,7 +46,7 @@ Tomando por base o contexto do sistema, foram identificados os seguintes requisi
 | RNF07 | O SGBD utilizado será o PostgresSQL                                                                                                                                                   | Manutenibilidade / Modularidade         | Média      |
 
 ## 4. Diagrama de Caso de Uso
-![Diagrama de Caso de Uso](./Diagrama%20de%20caso%20de%20uso.png)
+![Diagrama de Caso de Uso](/Artefatos/Diagrama%20de%20Caso%20de%20Uso.png)
 
 ## 5. Modelo Lógico de Banco de Dados
 ![Modelo Lógico de Banco de Dados](./Modelo%20Lógico%20de%20Banco%20de%20Dados.png)
