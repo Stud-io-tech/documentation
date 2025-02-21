@@ -154,8 +154,6 @@ Cada solicitação de mudança ou evolução deve ser registrada como uma Issue 
 
 - **Rótulos (Labels):** Classifique a Issue (ex.: bug, enhancement, feature, urgent).
 
-- **Milestone:** Relacione a Issue a um marco específico do projeto.
-
 - **Responsável (Assignee):** Atribua a Issue a um responsável.
 
 ### Linhas
