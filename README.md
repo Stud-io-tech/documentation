@@ -204,14 +204,6 @@ O controle de mudanças é um processo estruturado para gerenciar modificações
 
 ![Diagrama do Fluxo de Mudanças](/Artefatos/Fluxo%20de%20mudanças.png)
 
-#### Análise e Priorização
-Revisão das Issues em reuniões regulares ou sprints. Avaliando:
-- O impacto da mudança nos objetivos do projeto.
-- A viabilidade técnica.
-- O custo e o esforço necessários.
-  
-Usando Labels para priorização (high-priority, low-priority, etc.).
-
 ## Prova de conceito (MVP):
 
 Para validar o sistema, foi desenvolvida uma versão inicial que contempla apenas as funcionalidades essenciais do projeto, incluindo:
