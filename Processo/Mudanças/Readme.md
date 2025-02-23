@@ -21,7 +21,7 @@ O controle de mudanças é um processo estruturado para gerenciar modificações
   - Linha responsável por receber códigos validados pela branche de homologação e por subir o sistema para o servidor de produção automaticamente;
   - Se trata da linha chamada "main";
   - Caso exista algum erro no sistema em produção, será feita a restauração do "commit" anterior, caso exista versões antigas, e serão criadas branches de correção.
-  - 
+    
 - **Branches das hotfix/correções de erro:**
   - Linha responsável pela correção de erros verificada na branche de homologação ou produção;
   - Se um erro for identificado nas validações da linha "dev" ou na "main", uma nova branch de hotfix/correção será criada a partir dela (ex: hotfix/corrige-login);
