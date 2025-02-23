@@ -128,8 +128,9 @@ O código, testes e documentação que esteja de acordo com os documentos inicia
 **Meta:** Implementar as funcionalidades planejadas com qualidade, permitindo entregas incrementais e melhorias contínuas por meio de revisões e replanejamento.
 
 
-## Gestão de Mudanças e Evolução do Projeto
-Foi selecionado o Github Project para o gerenciamento visual de tarefas. Onde foi escolhido o modelo Kanban com colunas padrão:
+## Processo de Gerenciamento de Tarefas 
+
+Foi selecionado o Github Project para o processo de gerenciamento de tarefas, no qual foi escolhido o modelo Kanban com colunas padrão:
 
 - **Backlog:** Para tarefas, ideias e mudanças propostas.
 
@@ -141,20 +142,37 @@ Foi selecionado o Github Project para o gerenciamento visual de tarefas. Onde fo
 
 - **Done:** Para tarefas concluídas.
 
-### Gestão de Mudanças com Issues
-#### Propostas de Mudanças
+Além disso, cada tarefa deverá ter:
+
+- **Título:** Sendo curto e descritivo.
+
+- **Descrição:**
+  - História de usuário, incluindo:
+    - O papel responsável pela a ação. Exemplo: "**Como** desenvolvedor, ...";   
+    - A ação desejada. Exemplo: "**Quero** desenvolver a tela de produtos no mobile, ...";
+    - E a finalidade. Exemplo: "**Para que** os usuários possam gerenciar e visualizar os produtos.".
+  - Pequenas atividades para chegar resultado esperado da tarefa.
+    
+- **Prioridade:** Classificando uma tarefa por nível de urgência e impacto, como:
+  - **P0:** Deve ser resolvido imediatamente, pois bloqueia funcionalidades essenciais;
+  - **P1:** Necessário resolver em breve, mas não bloqueia o sistema.;
+  - **P2:** Pode ser resolvido futuramente, sem impacto crítico.
+
+- **Estimativas:** Adicionando tempo em horas estimada para a possível finalização da tarefa. 
+
+- **Tamanho:** Categorizado em níveis de complexidade, como:
+  - **XS:** Alteração simples (ex: corrigir um erro de digitação);
+  - **S:** Pequena refatoração ou adição de um campo no banco;
+  - **M:** Implementação de um novo componente ou funcionalidade pequena;
+  - **L:** Múltiplas mudanças em diferentes arquivos/módulos;
+  - **XL:** Task que envolve pesquisa, integração com API externa ou grande reestruturação.
+
+- **Interação:** Organizando e distribuindo tarefas ao longo do tempo, funcionando como sprints. Cada interação deve ter entre 15 (quinze) a 30 (trinta) dias.
+
+- **Responsável:** Atribuindo cada tarefa a um ou mais responsáveis para a sua execução.
+
+##  Controle de Mudanças
 Cada solicitação de mudança ou evolução deve ser registrada como uma Issue no repositório. Exemplo de campos na Issue:
-
-- **Título:** Curto e descritivo.
-
-- **Descrição:** Detalhe do problema ou melhoria proposta, incluindo:
-  - Justificativa (Por que a mudança é necessária?).
-  - Objetivos esperados.
-  - Impacto potencial.
-
-- **Rótulos (Labels):** Classifique a Issue (ex.: bug, enhancement, feature, urgent).
-
-- **Responsável (Assignee):** Atribua a Issue a um responsável.
 
 ### Linhas
 - **Branchs das issues**: Se trata da linha de cada issue (feature) a ser implementada, ao concluir a demanda deve-se fazer um Pull Request solicitando o merge para a branch dev, após isso, o código será testado (unitários, integraçãom, caixa branca e caixa preta);
