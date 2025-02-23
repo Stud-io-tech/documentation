@@ -128,7 +128,7 @@ O código, testes e documentação que esteja de acordo com os documentos inicia
 **Meta:** Implementar as funcionalidades planejadas com qualidade, permitindo entregas incrementais e melhorias contínuas por meio de revisões e replanejamento.
 
 
-## Processo de Gerenciamento de Tarefas 
+## Processo de Gerenciamento
 
 Foi selecionado o Github Project para o processo de gerenciamento de tarefas, no qual foi escolhido o modelo Kanban com colunas padrão:
 
