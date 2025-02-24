@@ -5,14 +5,13 @@
 Com base nas necessidades identificadas no setor de delivery voltado para micro e pequenos empreendedores de fast foods, pizzarias, lanchonetes, sorveterias e restaurantes constatou-se a inexistência de um sistema unificado que facilite a presença online desses estabelecimentos. 
 Partindo dessa premissa, nós da Stud.io Tech desenvolvemos e implementamos a ideia de um sistema de catálogo de produtos alimentícios, que permitirá que esses comerciantes possam exibir e gerenciar seus produtos virtualmente, melhorando sua visibilidade e facilitando o acesso dos clientes aos seus serviços.
 
-### O que é o projeto:
+### O que o MyFome entrega?
 
-O MyFome é um aplicativo móvel desenvolvido para atender os clientes, permitindo que eles visualizem as lojas cadastradas, além de explorar os produtos oferecidos por essas lojas. O cliente também pode finalizar seus pedidos de forma prática, diretamente pelo WhatsApp.
+O MyFome é um aplicativo móvel desenvolvido para atender os clientes, permitindo que eles visualizem as lojas cadastradas, além de explorar os produtos oferecidos por essas lojas. Para os clientes, os pedidos são criados no aplicativo e finalizados diretamente pelo WhatsApp. Já em relação aos empresários, o aplicativo oferece ferramentas completas para gerenciar sua loja, incluindo o cadastro e a administração de produtos.
 
-Para os empresários, o aplicativo oferece ferramentas completas para gerenciar sua loja, incluindo o cadastro e a administração de produtos.
+### O que o MyFome não é responsável?
 
-### O que o projeto não é:
-O MyFome não será responsável pela gestão de entregas, cobranças ou realização de compras, ficando essas atividades sob a responsabilidade exclusiva de cada empresa.
+O MyFome não é responsável pela gestão de entregas, cobranças ou realização de compras, ficando essas atividades sob a responsabilidade exclusiva de cada empresa.
 
 ## Processo
 
