@@ -6,7 +6,7 @@ Com base nas necessidades identificadas no setor de delivery voltado para micro 
 ## O que é o projeto:
 O MyFome é um aplicativo móvel desenvolvido para atender os clientes, permitindo que eles visualizem as lojas cadastradas, além de explorar os produtos oferecidos por essas lojas. O cliente também pode finalizar seus pedidos de forma prática, diretamente pelo WhatsApp.
 
-Para os empresários, o aplicativo oferece ferramentas completas para gerenciar suas lojas, incluindo o cadastro e a administração de produtos.
+Para os empresários, o aplicativo oferece ferramentas completas para gerenciar sua loja, incluindo o cadastro e a administração de produtos.
 
 ## O que o projeto não é:
 O MyFome não será responsável pela gestão de entregas, cobranças ou realização de compras, ficando essas atividades sob a responsabilidade exclusiva de cada empresa.
