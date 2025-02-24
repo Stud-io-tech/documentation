@@ -137,8 +137,7 @@ Além disso, cada tarefa deverá ter:
     - O papel responsável pela a ação. Exemplo: "**Como** desenvolvedor, ...";   
     - A ação desejada. Exemplo: "**Quero** desenvolver a tela de produtos no mobile, ...";
     - E a finalidade. Exemplo: "**Para que** os usuários possam gerenciar e visualizar os produtos.".
-  - Pequenas atividades para chegar resultado esperado da tarefa.
-    
+          
 - **Prioridade:** Classificando uma tarefa por nível de urgência e impacto, como:
   - **P0:** Deve ser resolvido imediatamente, pois bloqueia funcionalidades essenciais;
   - **P1:** Necessário resolver em breve, mas não bloqueia o sistema.;
