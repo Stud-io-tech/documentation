@@ -15,7 +15,7 @@ O MyFome não é responsável pela gestão de entregas, cobranças ou realizaç�
 
 ## Processo
 
-### Clico de vida e Processo
+### Clico de vida
 
 Em princípio, foi adotada ciclos de vida iterativo e incremental para o desenvolvimento deste projeto. Essa escolha permite garantir um crescimento adaptativo ao longo das iterações e incrementos.
 
