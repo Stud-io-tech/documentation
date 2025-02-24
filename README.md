@@ -28,6 +28,7 @@ Em princípio, foi adotada ciclos de vida iterativo e incremental para o desenvo
 | **Desenvolvimento** | ([Plano de Atendimento](/Processo/Artefatos/Plano%20de%20atendimento.md) e [Identidade Visual](/Processo/Artefatos/Identidade%20Visual.md)) [**Desenvolver**](/Processo/Atividades/Desenvolver.md) ([Produto _Incrementado_](/Processo/Artefatos/Produto%20incrementado.md)) | [Desenvolvedor](/Processo/Papeis/Desenvolvedor.md)  e [Análista de qualidade](/Processo/Papeis/Analista%20de%20qualidade.md)            |
 | **Desenvolvimento** | ([Produto _Incrementado_](/Processo/Artefatos/Produto%20incrementado.md)) [**Revisar/Replanejar**](/Processo/Atividades/Revisar%20planejar.md) ([Produto _Ajustado_](/Processo/Artefatos/Produto%20Ajustado.md))) | [Dono do Produto](/Processo/Papeis/Dono%20do%20produto.md) e [Análista de Qualidade](/Processo/Papeis/Analista%20de%20qualidade.md) |
 ---
+### Fases do Projeto
 
 #### 1. Planejamento
 **Meta:** Garantir que as necessidades do cliente sejam compreendidas, refinadas e priorizadas em pequenos incrementos funcionais (histórias de usuário), organizados em um plano claro de execução.
@@ -38,7 +39,7 @@ Em princípio, foi adotada ciclos de vida iterativo e incremental para o desenvo
 #### 3. Desenvolvimento
 **Meta:** Implementar as funcionalidades planejadas com qualidade, permitindo entregas incrementais e melhorias contínuas por meio de revisões e replanejamento.
 
-### Processo de Gerenciamento
+## Processo de Gerenciamento
 
 Foi selecionado o Github Project para o processo de gerenciamento de tarefas, no qual foi escolhido o modelo Kanban com colunas padrão:
 
@@ -82,11 +83,11 @@ Além disso, cada tarefa deverá ter:
 
 - **Responsável:** Atribuição de um ou mais responsáveis para a execução da tarefa.
 
-### Controle de Mudanças
+## Controle de Mudanças
 
 O controle de mudanças é um processo estruturado para gerenciar modificações no código-fonte de um projeto, garantindo estabilidade, rastreabilidade e qualidade. Ele define como as alterações são desenvolvidas, testadas e promovidas até a produção, minimizando riscos e falhas. Dessa forma, utilizamos Git como sistema de controle de versão distribuído e GitHub como plataforma para gerenciamento de repositórios, revisão de código e colaboração entre desenvolvedores.
 
-#### Fluxo de linhas:
+### Fluxo de linhas:
 
 - **Branches das issues/features**:
   - Linhas responsáveis pelo de desenvolvimento;
@@ -111,7 +112,7 @@ O controle de mudanças é um processo estruturado para gerenciar modificações
   - Se um erro for identificado nas validações da linha "dev" ou na "main", uma nova branch de hotfix/correção será criada a partir dela;
   - Cada correção será implementada, testada e, se aprovada, integrada novamente à dev, assim como nas branches de issues/features.
 
-#### Diagrama de Fluxo:
+### Diagrama de Fluxo:
 
 ![Diagrama do Fluxo de Mudanças](/Artefatos/Fluxo%20de%20mudanças.png)
 
