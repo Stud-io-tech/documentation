@@ -144,7 +144,9 @@ Além disso, cada tarefa deverá ter:
   - **P1:** Necessário resolver em breve, mas não bloqueia o sistema.;
   - **P2:** Pode ser resolvido futuramente, sem impacto crítico.
 
-- **Estimativas:** Adicionando tempo em horas estimada para a possível finalização da tarefa. 
+- **Estimativas:** Adicionando tempo em horas estimada para a possível finalização da tarefa.
+
+- **Rótulos (Labels):** Classificando a Issue (ex.: bug, enhancement, feature, urgent).
 
 - **Tamanho:** Categorizado em níveis de complexidade, como:
   - **XS:** Alteração simples (ex: corrigir um erro de digitação);
@@ -183,7 +185,7 @@ O controle de mudanças é um processo estruturado para gerenciar modificações
     
 - **Branches das hotfix/correções de erro:**
   - Linha responsável pela correção de erros verificada na branche de homologação ou produção;
-  - Se um erro for identificado nas validações da linha "dev" ou na "main", uma nova branch de hotfix/correção será criada a partir dela (ex: hotfix/corrige-login);
+  - Se um erro for identificado nas validações da linha "dev" ou na "main", uma nova branch de hotfix/correção será criada a partir dela;
   - Cada correção será implementada, testada e, se aprovada, integrada novamente à dev, assim como nas branches de issues/features.
 
 ### Diagrama de Fluxo:
@@ -196,4 +198,6 @@ Para validar o sistema, foi desenvolvida uma versão inicial que contempla apena
 - Cadastro, Login e logout do lojista;
 - Cadastro de lojas e produtos pelos lojistas;
 - Listagem de lojas e produtos para os clientes sem precisar estar logado;
-- Redirecionamento para finalizar pedidos pelo WhatsApp; 
+- Redirecionamento para finalizar pedidos pelo WhatsApp;
+
+[Aplicativo](https://drive.google.com/drive/folders/1XgvYQ-fs-8wkJKBox98JmKbQZUn_ilcG?usp=drive_link)
