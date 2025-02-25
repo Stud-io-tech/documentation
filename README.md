@@ -91,7 +91,7 @@ Além disso, cada tarefa deverá ter:
 
 - **Responsável (assignees):** Atribuição de um ou mais responsáveis para a execução da tarefa.
 
-[Link para ver o monitoramento](https://github.com/orgs/Stud-io-tech/projects/5)
+[Link do project](https://github.com/orgs/Stud-io-tech/projects/5)
 
 
 ## Controle de Mudanças
