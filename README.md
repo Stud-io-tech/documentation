@@ -21,7 +21,7 @@ Em princípio, foi adotada ciclos de vida iterativo e incremental para o desenvo
 
 ### Diagrama do Ciclo de Vida
 
-([https://wiki.sj.ifsc.edu.br/images/1/1c/Iterativo_e_incremental.jpg](https://wiki.sj.ifsc.edu.br/images/1/1c/Iterativo_e_incremental.jpg))
+![diagrama do ciclo de vida do processo](/Artefatos/Iterativo_e_incremental.jpg)
 
 ### Tabela de Atividades
 
