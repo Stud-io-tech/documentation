@@ -135,4 +135,4 @@ Para validar o sistema, foi desenvolvida uma versão inicial que contempla apena
 - Listagem de lojas e produtos para os clientes sem precisar estar logado;
 - Redirecionamento para finalizar pedidos pelo WhatsApp;
 
-[Aplicativo](https://drive.google.com/drive/folders/1XgvYQ-fs-8wkJKBox98JmKbQZUn_ilcG?usp=drive_link)
+[Link do Aplicativo](https://drive.google.com/drive/folders/1XgvYQ-fs-8wkJKBox98JmKbQZUn_ilcG?usp=drive_link)
