@@ -91,6 +91,8 @@ Além disso, cada tarefa deverá ter:
 
 - **Responsável (assignees):** Atribuição de um ou mais responsáveis para a execução da tarefa.
 
+  [Link para ver o monitoramento](https://github.com/orgs/Stud-io-tech/projects/5)
+
 ## Controle de Mudanças
 
 O controle de mudanças é um processo estruturado para gerenciar modificações no código-fonte de um projeto, garantindo estabilidade, rastreabilidade e qualidade. Ele define como as alterações são desenvolvidas, testadas e promovidas até a produção, minimizando riscos e falhas. Dessa forma, utilizamos Git como sistema de controle de versão distribuído e GitHub como plataforma para gerenciamento de repositórios, revisão de código e colaboração entre desenvolvedores.
