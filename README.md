@@ -65,25 +65,31 @@ Além disso, cada tarefa deverá ter:
     - A ação desejada. Exemplo: "**Quero** desenvolver a tela de produtos no mobile, ...";
     - E a finalidade. Exemplo: "**Para que** os usuários possam gerenciar e visualizar os produtos.".
           
-- **Prioridade:** Classificação de uma tarefa por nível de urgência e impacto, como:
+- **Prioridade (Priority):** Classificação de uma tarefa por nível de urgência e impacto, como:
   - **P0:** Deve ser resolvido imediatamente, pois bloqueia funcionalidades essenciais;
   - **P1:** Necessário resolver em breve, mas não bloqueia o sistema.;
   - **P2:** Pode ser resolvido futuramente, sem impacto crítico.
 
-- **Estimativas:** Adicionando tempo em horas estimada para a possível finalização da tarefa.
+- **Estimativa (Estimate):** Adição de tempo em horas estimada para a possível finalização da tarefa.
 
-- **Rótulos (Labels):** Classificando a Issue (ex.: bug, enhancement, feature, urgent).
+- **Rótulos (Labels):** Classificação do tipo a Issue (ex.: bug, desenvolvimento, design, planejamento).
 
-- **Tamanho:** Categorização em níveis de complexidade, como:
+- **Tipo (Type):** Classificando o tipo da atividade (ex.: bug, feature, task).
+
+- **Tamanho (Size):** Categorização em níveis de complexidade, como:
   - **XS:** Alteração simples (ex: corrigir um erro de digitação);
   - **S:** Pequena refatoração ou adição de um campo no banco;
   - **M:** Implementação de um novo componente ou funcionalidade pequena;
   - **L:** Múltiplas mudanças em diferentes arquivos/módulos;
   - **XL:** Task que envolve pesquisa, integração com API externa ou grande reestruturação.
 
-- **Interação:** Distribuição de tarefas em sprints. Cada interação deve ter entre 15 (quinze) a 30 (trinta) dias.
+- **Data de inicio (Start date):** Adicição do tempo de inicialização da tarefa.
 
-- **Responsável:** Atribuição de um ou mais responsáveis para a execução da tarefa.
+- **Data de fim (End date):** Adicição do tempo de finalização da tarefa.
+
+- **Interação (Iteration):** Distribuição de tarefas em sprints. Cada interação deve ter entre 15 (quinze) a 30 (trinta) dias.
+
+- **Responsável (assignees):** Atribuição de um ou mais responsáveis para a execução da tarefa.
 
 ## Controle de Mudanças
 
