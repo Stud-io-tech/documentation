@@ -113,18 +113,18 @@ A fase final do RUP implica transferência do sistema da comunidade de desenvolv
 
 ## Matriz de Atividades
 
-A seguir, apresenta-se uma matriz que relaciona as fases baseadas no RUP com os principais artefatos de entrada, ações executadas e saída. Essa estrutura contribui para a rastreabilidade do processo de desenvolvimento de software, tornando mais claro quem faz o quê, quando e com base em quais artefatos.
+A seguir, apresenta-se uma matriz que relaciona as fases inspiradas no RUP com os principais artefatos de entrada e de saída, ações executadas e responsáveis. Essa estrutura contribui para a rastreabilidade do processo de desenvolvimento de software, tornando mais claro quem faz o quê, quando e com base em quais artefatos.
 
-| **Fase**   | **Artefato de Entrada** | **Ação**    | **Artefato de Saída**         | 
-| ---------- | ----------------------- | ----------- | ----------------------------- |
-| Concepção  | Contexto                | Definir     | Escopo                        | 
-| Concepção  | Escopo                  | Especificar | Documento de Requisitos (PRD) |
-| Elaboração | PRD                     | Escrever    | Histórias de Usuário          |
-| Elaboração | Histórias de Usuário    | Planejar    | Backlog do Produto            | 
-| Construção | Backlog do Produto      | Desenvolver | Produto Incrementado          |
-| Construção | Produto Incrementado    | Testar      | Produto Ajustado              | 
-| Transição  | Produto Ajustado        | Implantar   | Produto Finalizado            |  
-| Transição  | Produto Finalizado      | Avaliar     | Documento de Feedback         |
+| **Fase**   | **Artefato de Entrada** | **Ação**    | **Artefato de Saída**         | **Responsável**        |
+| ---------- | ----------------------- | ----------- | ----------------------------- | ---------------------- |
+| Concepção  | Contexto                | Definir     | Escopo                        | Dono do Produto        |
+| Concepção  | Escopo                  | Especificar | Documento de Requisitos (PRD) | Gerente de Projeto     |
+| Elaboração | PRD                     | Escrever    | Histórias de Usuário          | Dono do Produto        |
+| Elaboração | Histórias de Usuário    | Planejar    | Backlog do Produto            | Gerente de Projeto     |
+| Construção | Backlog do Produto      | Desenvolver | Produto Incrementado          | Engenheiro de Software |
+| Construção | Produto Incrementado    | Testar      | Produto Ajustado              | Engenheiro de Software |
+| Transição  | Produto Ajustado        | Implantar   | Produto Finalizado            | Engenheiro de Software | 
+| Transição  | Produto Finalizado      | Avaliar     | Documento de Feedback         | Engenheiro de Software |
 
 
 ## Atividades 
