@@ -4,11 +4,11 @@ O Capricha AÍ é um aplicativo móvel voltado à comercialização digital de a
 
 ## Escopo
 
-O escopo define os limites e objetivos do projeto, estabelecendo o que será ou não implementado. No Capricha AÍ, ele orienta o desenvolvimento conforme as necessidades dos vendedores e consumidores envolvidos na construção do projeto. Dessa forma, cada interação representa uma fase com evoluções específicas no sistema. Veja a seguir o escopo de cada interação:
+O escopo define os limites e objetivos do projeto, estabelecendo o que será ou não implementado. No Capricha AÍ, ele orienta o desenvolvimento conforme as necessidades dos vendedores e consumidores envolvidos na construção do projeto. Dessa forma, cada iteração representa uma fase com evoluções específicas no sistema. Veja a seguir o escopo de cada interação:
 
-### Iteração I
+### Iteração Piloto
 
-A Iteração I corresponde à criação do primeiro Produto Mínimo Viável (Minimum Viable Product - MVP), desenvolvido como etapa de descoberta e validação da ideia. Nesta fase, não foi realizada pesquisa direta com vendedores ou consumidores locais, tampouco foram aplicados os padrões e processos definidos nesta documentação. O foco principal foi apenas estruturar uma versão inicial do aplicativo a partir de hipóteses levantadas pelo próprio grupo, sem validações externas.
+A Iteração Piloto corresponde à criação do primeiro Produto Mínimo Viável (Minimum Viable Product - MVP), desenvolvido como uma etapa experimental de descoberta e validação inicial da ideia. Nesta fase, não foi realizada pesquisa direta com vendedores ou consumidores locais, tampouco foram aplicados todos os padrões e processos definidos nesta documentação. Análago ao contexto, o objetivo principal da iteração foi estruturar uma versão preliminar do aplicativo a partir de hipóteses levantadas pelo próprio grupo, sem validações externas.
 
 Dessa forma, as funcionalidades contempladas nesta iteração foram:
 
@@ -17,6 +17,24 @@ Dessa forma, as funcionalidades contempladas nesta iteração foram:
 - Listagem de lojas virtuais e produtos acessível para clientes sem necessidade de login;
 - Redirecionamento para o WhatsApp para finalizar pedidos únicos de produtos;
 - Compartilhamento de lojas virtuais e produtos em redes sociais para fins de divulgação.
+
+### Iteração I
+
+A Iteração I representa a consolidação do projeto seguindo os processos e padrões definidos nesta documentação. Diferente da Iteração Piloto, esta fase já conta com coleta de dados estruturada junto a consumidores e vendedores, além do levantamento formal de requisitos, o que garante maior alinhamento entre o produto em desenvolvimento e as necessidades reais dos usuários.
+
+Neste contexto, o foco desta iteração é corrigir e aprimorar o que foi construído no piloto e, ao mesmo tempo, introduzir novas funcionalidades essenciais para o funcionamento do marketplace. Veja abaixo as funcionalidades implementadas:
+
+- Funcionalidades de compra e venda, como carrinho, pedidos e gerenciamento de entregas;
+- Mecanismos de comunicação e engajamento, como notificações, agendamento e definição de horários de funcionamento;
+- Políticas de controle de pedidos, assegurando regras claras para alterações e cancelamentos;
+- Exploração inicial de inteligência artificial, aplicada à interação simplificada com informações da loja.
+
+Por outro lado, nesta fase não serão implementados:
+
+- Pagamentos diretamente no aplicativo;
+- Adição de descontos ou promoções;
+- Estratégias de marketing ou tráfego inteligente para produtos;
+- Aprofundamento da inteligência artificial para criação ou modificação de lojas, produtos ou status de pedidos via comandos de texto ou voz.
 
 ## Padrão de Diretórios dos Artefatos de Requisito
 
