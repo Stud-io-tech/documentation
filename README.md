@@ -143,7 +143,7 @@ Cada atividade do projeto é classificada conforme sua natureza, o que ajuda a i
 
 ### Estrutura Padrão das Atividades/Issues
 
-As issues são usadas para planejar, distribuir e acompanhar as atividades do projeto. Elas estão localizadas no **[_Project (projeto)_](https://github.com/orgs/SysDoa/projects/1/views/1)** desta organização e cada uma deve conter informações completas para garantir entendimento e rastreabilidade. Neste contexto, o modelo adotado de issue/atividade segue o consecutivo padrão abaixo:
+As issues são usadas para planejar, distribuir e acompanhar as atividades do projeto. Elas estão localizadas no **[_Project (projeto)_](https://github.com/orgs/Stud-io-tech/projects/5)** desta organização e cada uma deve conter informações completas para garantir entendimento e rastreabilidade. Neste contexto, o modelo adotado de issue/atividade segue o consecutivo padrão abaixo:
 
 - **Identificador:** número de identificação de cada issue. É gerado automaticamente;
 - **Título:** curto, descrevendo o que deve ser feito e referenciando o repositório para a sua construção;
@@ -166,10 +166,11 @@ As issues são usadas para planejar, distribuir e acompanhar as atividades do pr
     - **M:** funcionalidade moderada (ex: novo formulário);
     - **L:** alteração abrangente (ex: lógica com múltiplos arquivos);
     - **XL:** atividade complexa ou com pesquisa/investigação.
-- **Data de Início (Start Date) e Data de Fim (End Date):** para controle de tempo real de execução.
+- **Data de Início (Start Date)**: data incial para o desenvolvimento da atividade;
+- **Data de Fim (End Date):** data final para a entrega da atividade;
 - **Interação (Iteration):** a qual sprint/interação a tarefa pertence (deve durar entre 15 a 30 dias).
 - **Responsável (Assignees):** membro(s) atribuídos para executar a tarefa;
-- **Repositório (Repository)**: repositório associado a issue.
+- **Repositório (Repository)**: repositório associado à issue.
 
 ## Mecanismos de Garantia das Atividades e Rastreabilidade
 
@@ -191,13 +192,13 @@ O controle de mudanças é um processo estruturado para gerenciar modificações
 
 - **Branches das issues**:
     - Linhas responsáveis pelo de desenvolvimento, criada a partir da branch "dev";
-    - A branch deve começar com o prefixo "feat/", depois o nome da funcionalidade que será tratada. Exemplo: feat/cadasto-lote-candidato;
+    - A branch deve começar com o prefixo "feat/", depois o nome da funcionalidade que será tratada. Exemplo: feat/store;
     - As issues são criadas a partir da main, caso seja a primeira a ser criada, ou a partir de outra branch já testada, caso possua outras branches que podem ser aproveitadas;  
     - Cada issue terá sua própria branch para desenvolvimento;
     - Após a implementação, deve-se abrir um Pull Request para a branch "dev";
     
 - **Homologação**:
-    - Linha responsável por validar as branches criadas antes de ser envida para a produção;
+    - Linha chamada "dev" responsável por validar as branches criadas antes de ser envida para a produção;
     - Linha criada a partir da branch "main";
     - Caso todas as branches criadas sejam validadas com sucesso nesta linha, haverá um Pull Request para a linha de produção, ou seja, para a branch "main";
     - Caso exista algum erro ao realizar a validação de alguma branch enviada para essa linha, serão criadas branches de correção até que tudo esteja validado com sucesso.
@@ -207,9 +208,9 @@ O controle de mudanças é um processo estruturado para gerenciar modificações
     - Se trata da linha chamada "main";
     - Caso exista algum erro no sistema em produção, será feita a restauração do "commit" anterior, caso exista versões antigas, e serão criadas branches de correção.
     
-- **Branches das hotfix/correções de erro:**
+- **Branches das correções de erro:**
     - Linha responsável pela correção de erros verificada na branch de homologação ou produção;
-    - A branch deve começar com o prefixo "hotfix/", depois o nome da funcionalidade que será tratada. Exemplo: hotfix/validacao-imc-candidato;
+    - A branch deve começar com o prefixo "hotfix/", depois o nome da funcionalidade que será tratada. Exemplo: hotfix/fix-login-authorization;
     - Se um erro for identificado nas validações da linha "dev" ou na "main", uma nova branch de hotfix será criada a partir dela;
     - Cada correção será implementada, testada e, se aprovada, integrada novamente à dev, assim como nas branches de issues.
 
