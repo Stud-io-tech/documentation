@@ -1,2 +1,0 @@
-### Ferramentas de automação
-Para otimizar o processo, o uso do PHP como linguagem de programação backend juntamente com o Composer como gerenciador de pacotes e o framework Laravel que utiliza o padrão MVC foram a escolha certa oferecendo robustez, segurança, facilidade e organização. Já no mobile, a escolha caiu sobre o Dart como linguagem de programação nativa juntamente com o Flutter, um framework baseado em Widgets e multiplataforma, oferecendo desempenho nativo, agilidade e segurança.
