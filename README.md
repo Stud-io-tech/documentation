@@ -24,15 +24,17 @@ A Iteração I representa a consolidação do projeto seguindo os processos e pa
 
 Neste contexto, o foco desta iteração é corrigir e aprimorar o que foi construído no piloto e, ao mesmo tempo, introduzir novas funcionalidades essenciais para o funcionamento do marketplace. Veja abaixo as funcionalidades implementadas:
 
-- Funcionalidades de compra e venda, como carrinho, pedidos e gerenciamento de entregas;
-- Mecanismos de comunicação e engajamento, como notificações e definição de horários de funcionamento;
-- Políticas de controle de pedidos, assegurando regras claras para alterações e cancelamentos.
+- Melhorias em lojas com adição de dados de horários, status de funcionamento, estimativa de precificação de frete por quilômetro rodado, endereço e chave pix. 
+- Melhorias em produtos com adição de informações de tempo de preparção e situação de perecibilidade;
+- Funcionalidade de gestão de carrinho com listas de itens de produto separados por grupo de lojas;
+- Mecanismos de controle de pedidos.
 
 Por outro lado, nesta fase não serão implementados:
 
 - Pagamentos diretamente no aplicativo;
 - Agendamentos personalizados de pedidos;
 - Adição de descontos ou promoções;
+- Notificações push;
 - Estratégias de marketing ou tráfego inteligente para produtos;
 - Exploração de inteligência artificial, aplicada à interação simplificada com informações da loja, criação e modificação de produtos, lojas e pedidos via comandos de texto ou voz em chat.
 
@@ -98,16 +100,6 @@ Para garantir rastreabilidade e facilitar a validação dos requisitos ao longo 
         - **Ambiental:** adaptação ao ambiente físico.
     - **Observações Extras:** informações adicionais relevantes que não se enquadram nos campos anteriores.
 
-## Processo de Desenvolvimento de Artefatos de Requisitos
-
-O processo de desenvolvimento de artefatos de requisitos estabelece as fases em que os requisitos do sistema são criados, revisados e atualizados ao longo do projeto. Essa definição garante a rastreabilidade e alinhamento contínuo entre as necessidades do sistema e sua implementação. Veja na tabela baixo mais detalhes de cada fase aplicada.
-
-| **Fase**    | **Descrição**                                                                                   | **Momento**                                   | **Resultados**                                                     | **Rastreabilidade**                                                                                                                              |
-| ----------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------ |
-| Criação     | Documentação inicial dos requisitos do sistema com base no levantamento com stakeholders        | Início de cada interação do projeto           | requisitos funcionais e não funcionais criados com padrão definido | Sempre referenciando o commit com o prefixo feat e a identificação da issue do requisito. Exemplo: "feat #01: ..."            |
-| Revisão     | Correção de erros ou ambiguidades nos requisitos existentes                                     | Após testes, validações ou feedbacks internos | Ajustes nos textos ou regras dos requisitos                        | Sempre referenciando o commit com o prefixo fix e a identificação da issue do requisito. Exemplo: "fix #02: ..."                |
-| Atualização | Modificações nos requisitos para refletir novas funcionalidades, melhorias ou mudanças externas | A cada nova demanda ou mudança de escopo      | Versões novas dos requisitos funcionais ou não funcionais          | Sempre referenciando o commit com o prefixo refactor e a identificação da issue do requisito. Exemplo: "refactor #03: ..." |
-
 ## Processo de Desenvolvimento de Software
 
 De forma preliminar, a extensão da solução tecnológica seguirá um modelo de desenvolvimento com base no processo iterativo incremental, no qual será estruturado em quatro fases, inspiradas no Processo Unificado Racional (Rational Unified Process - RUP): Concepção, Elaboração, Construção e Transição. Por conseguinte, com base nesse modelo, cada etapa incluirá ações definidas, pensadas para assegurar que o sistema evolua com revisões constantes. A seguir, será detalhado cada fase do processo selecionado.
@@ -171,19 +163,12 @@ As issues são usadas para planejar, distribuir e acompanhar as atividades do pr
     - **P0:** crítica e bloqueia outras funcionalidades;
     - **P1:** importante, mas não bloqueia outras funcionalidades;
     - **P2:** pode ser feita depois, sem impacto imediato.
-- **Construção (Construction):** tipo de evolução de artefato, podendo ser:
-    - **Evolutiva (Evolutionary):** adiciona funcionalidades novas ou melhorias planejadas;
-    - **Corretiva (Corrective):** corrige erros, falhas de lógica ou validações que impedem o funcionamento adequado;
-    - **Adaptativa (Adaptive):** altera o sistema para se adaptar a mudanças externas.
-- **Estimativa (Estimate):** tempo estimado para a execução (em dias).
 - **Tamanho (Size):** complexidade da tarefa:
     - **XS:** ajuste simples (ex: correção de texto);
     - **S:** alteração pequena (ex: adicionar campo);
     - **M:** funcionalidade moderada (ex: novo formulário);
     - **L:** alteração abrangente (ex: lógica com múltiplos arquivos);
     - **XL:** atividade complexa ou com pesquisa/investigação.
-- **Data de Início (Start Date)**: data incial para o desenvolvimento da atividade;
-- **Data de Fim (End Date):** data final para a entrega da atividade;
 - **Interação (Iteration):** a qual sprint/interação a tarefa pertence (deve durar entre 15 a 30 dias).
 - **Responsável (Assignees):** membro(s) atribuídos para executar a tarefa;
 - **Repositório (Repository)**: repositório associado à issue.
