@@ -80,7 +80,7 @@ Para garantir rastreabilidade e facilitar a validação dos requisitos ao longo 
         - **Nome:** nome da informação;
         - **Tipo:** tipo de dado;
         - **Valor Obrigatório:** se o campo é ou não obrigatório ser preenchido;
-        - **Limitação:** limitações; 
+        - **Propriedade:** define as validações técnicas aplicadas ao campo (tamanho, unicidade, formato etc.). 
 
 - **Requisitos não funcionais** terão estrutura simples com identificador, descrição e categoria, focando em qualidades do sistema. Dessa forma, o modelo definido deve conter os campos conforme a ordem seguinte:
 
