@@ -38,55 +38,54 @@ Por outro lado, nesta fase não serão implementados:
 - Estratégias de marketing ou tráfego inteligente para produtos;
 - Exploração de inteligência artificial, aplicada à interação simplificada com informações da loja, criação e modificação de produtos, lojas e pedidos via comandos de texto ou voz em chat.
 
-## Padrão de Diretórios dos Artefatos de Requisito
+## Padrão de Diretórios dos Artefatos de Requisito do Sistema
 
 O projeto segue uma estrutura clara de pastas para ajudar na manutenção e colaboração em equipe. Dessa forma, para nortear a organização dos artefatos de requisitos do produto, adotou-se a seguinte hierarquia de diretórios:
 
-documentation  
-&nbsp;&nbsp;&nbsp;&nbsp;↳ requirements  
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ functional   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ non-functional 
+documentation 
+
+&nbsp;&nbsp;&nbsp;&nbsp;↳ requirements 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ functional
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ non-functional
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;↳ business-rule
+
 
 Essa separação permite localizar rapidamente os arquivos e manter a rastreabilidade entre os tipos de requisito.
 
-## Padrão de Nomenclatura dos Artefatos de Requisito
+## Padrão de Nomenclatura dos Artefatos de Requisito do Sistema
 
 Para padronizar nomes, evitar confusões e facilitar buscas, foi adotado o seguinte padrão de nomeclatura dos artefatos:
 
 - **Diretórios**: em minúsculas, sem pontuações e separados por hífem em vez de espaços; 
 
-- **Requisitos**: em Markdown (.md) e nomeados com letras maiúsculas para destaque, além de iniciar com o prefixo **RF** para requisitos funcionais e **RNF** para requisitos não funcionais, sempre fornecendo o número de identificação posteriormente.
+- **Requisitos**: em Markdown (.md) e nomeados com letras maiúsculas para destaque, além de iniciar com o prefixo **RF** para requisitos funcionais, **RNF** para requisitos não funcionais e **RN** para regras de negócio, sempre fornecendo o número de identificação posteriormente.
 
 ## Padrão de Artefato de Requisitos
 
 Para garantir rastreabilidade e facilitar a validação dos requisitos ao longo do projeto, será adotado um modelo padronizado. Veja a seguir as regras de padronização dos requistos funcionais e não funcionais:
 
-- **Requisitos funcionais** incluirão campos como caso de uso, fluxos, atores e tabelas de dados, permitindo compreender claramente o comportamento esperado do sistema. Dessa forma, o modelo definido deve conter os campos conforme a ordem seguinte:
+- **Requisitos funcionais** incluirão campos identificador, caso de uso, descrição, atores, dependências, cardinalidades e tabelas de dados, permitindo compreender claramente o comportamento esperado do sistema. Dessa forma, o modelo definido deve conter os campos conforme a ordem seguinte:
 
     - **Identificador:** código único que permite identificar o requisito de forma rastreável;
     - **Caso de Uso:** nome objetivo da funcionalidade que representa o comportamento esperado do sistema;
     - **Descrição:** explica de forma clara o que o sistema deve fazer e qual o objetivo da funcionalidade, geralmente com o foco no usuário final e no propósito do requisito;
-    - **Impacto:** grau de importância da característica funcional para o sistema, normalmente definidas como **_Alta_**, **_Média_** e **_Baixa_**;
     - **Atores:** papeis de usuários ou sistemas externos que interagem com a funcionalidade;
-    - **Pré-condições:** condições que precisam ser verdadeiras ou existentes antes do início da execução da funcionalidade.
-    - **Pós-condições:** Estado esperado do sistema após a execução bem-sucedida da funcionalidade;
-    - **Fluxos Principais:** sequência de passos padrão (cenário de sucesso) que o usuário e o sistema seguem para realizar a funcionalidade;
-    - **Fluxos Alternativos:** Caminhos alternativos que o usuário pode seguir, mas que ainda resultam no sucesso da operação;
-    - **Fluxos de Exceções:** Situações de erro ou imprevistos que podem ocorrer durante o fluxo, com as respectivas ações do sistema;
+    relacionado a uma funcionalidade específica.
     - **Dependências:** outros requisitos que precisam estar presentes ou operacionais para que este requisito funcione corretamente.
     - **Cardinalidades:** Quantidade mínima e máxima de interações entre entidades envolvidas. Pode ser omitido se não houver impacto no requisito;
     - **Tabelas de Dados:** Define os dados usados ou manipulados pela funcionalidade Cada campo da tabela contém:
         - **Nome:** nome da informação;
         - **Tipo:** tipo de dado;
         - **Valor Obrigatório:** se o campo é ou não obrigatório ser preenchido;
-        - **Restrições:** validações ou limitações; 
-    - **Observações Extras:** informações adicionais relevantes que não se enquadram nos campos anteriores.
+        - **Limitação:** limitações; 
 
-- **Requisitos não funcionais** terão estrutura simples com identificador, prioridade e categoria, focando em restrições e qualidades do sistema. Dessa forma, o modelo definido deve conter os campos conforme a ordem seguinte:
+- **Requisitos não funcionais** terão estrutura simples com identificador, descrição e categoria, focando em qualidades do sistema. Dessa forma, o modelo definido deve conter os campos conforme a ordem seguinte:
 
     - **Identificador:** código único que permite identificar o requisito de forma rastreável;
-    - **Descrição:** explica a qualidade, restrição ou condição que o sistema deve cumprir, sem estar diretamente relacionado a uma funcionalidade específica.
-    - **Impacto:** grau de importância da característica não funcional para o sistema, normalmente definidas como **_Alta_**, **_Média_** e **_Baixa_**;
+    - **Descrição:** explica a qualidade que o sistema deve cumprir, sem estar diretamente relacionado a uma funcionalidade específica.
     - **Categoria:** classificação do requisito não funcional com base em seu foco, como:
         - **Segurança:** proteção de dados sensíveis;
         - **Capacidade:** armazenamento e processamento necessários;
@@ -98,8 +97,13 @@ Para garantir rastreabilidade e facilitar a validação dos requisitos ao longo 
         - **Desempenho:** tempo de resposta adequado;
         - **Conformidade:** atendimento a normas legais;
         - **Ambiental:** adaptação ao ambiente físico.
-    - **Observações Extras:** informações adicionais relevantes que não se enquadram nos campos anteriores.
 
+- **Regras de negócio** terão estrutura simples com identificador, descrição e dependência, focando em regras e restrições a serem seguidas. Dessa forma, o modelo definido deve conter os campos conforme a ordem seguinte:
+
+    - **Identificador:** código único que permite identificar o requisito de forma rastreável;
+    - **Descrição:** explica a restrição ou regra que o sistema deve cumprir.
+    - **Dependências:** outra exigência que precisam estar presentes ou operacionais para que esta regra funcione corretamente.
+  
 ## Processo de Desenvolvimento de Software
 
 De forma preliminar, a extensão da solução tecnológica seguirá um modelo de desenvolvimento com base no processo iterativo incremental, no qual será estruturado em quatro fases, inspiradas no Processo Unificado Racional (Rational Unified Process - RUP): Concepção, Elaboração, Construção e Transição. Por conseguinte, com base nesse modelo, cada etapa incluirá ações definidas, pensadas para assegurar que o sistema evolua com revisões constantes. A seguir, será detalhado cada fase do processo selecionado.
@@ -170,6 +174,8 @@ As issues são usadas para planejar, distribuir e acompanhar as atividades do pr
     - **L:** alteração abrangente (ex: lógica com múltiplos arquivos);
     - **XL:** atividade complexa ou com pesquisa/investigação.
 - **Interação (Iteration):** a qual sprint/interação a tarefa pertence (deve durar entre 15 a 30 dias).
+- **Data de Início (Start Date):** data de inicial de execução.
+- **Data de Fim (End Date):** data limite de execução.
 - **Responsável (Assignees):** membro(s) atribuídos para executar a tarefa;
 - **Repositório (Repository)**: repositório associado à issue.
 
