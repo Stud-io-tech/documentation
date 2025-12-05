@@ -67,7 +67,7 @@ Para padronizar nomes, evitar confusões e facilitar buscas, foi adotado o segui
 
 Para garantir rastreabilidade e facilitar a validação dos requisitos ao longo do projeto, será adotado um modelo padronizado. Veja a seguir as regras de padronização dos requistos funcionais e não funcionais:
 
-- **Requisitos funcionais** incluirão campos identificador, caso de uso, descrição, atores, dependências, cardinalidades e tabelas de dados, permitindo compreender claramente o comportamento esperado do sistema. Dessa forma, o modelo definido deve conter os campos conforme a ordem seguinte:
+- **Requisitos funcionais** incluirão campos identificador, caso de uso, descrição, atores, dependências, cardinalidades e tabelas de dados, permitindo compreender claramente o comportamento esperado do sistema. Entretanto, nem todos os dados os campos precisam estar presentes. Dessa forma, o modelo definido deve conter os campos conforme a ordem seguinte:
 
     - **Identificador:** código único que permite identificar o requisito de forma rastreável;
     - **Caso de Uso:** nome objetivo da funcionalidade que representa o comportamento esperado do sistema;
@@ -98,7 +98,7 @@ Para garantir rastreabilidade e facilitar a validação dos requisitos ao longo 
         - **Conformidade:** atendimento a normas legais;
         - **Ambiental:** adaptação ao ambiente físico.
 
-- **Regras de negócio** terão estrutura simples com identificador, descrição e dependência, focando em regras e restrições a serem seguidas. Dessa forma, o modelo definido deve conter os campos conforme a ordem seguinte:
+- **Regras de negócio** terão estrutura simples com identificador, descrição e dependência, focando em regras e restrições a serem seguidas. Entretanto, nem todos os dados os campos precisam estar presentes. Dessa forma, o modelo definido deve conter os campos conforme a ordem seguinte:
 
     - **Identificador:** código único que permite identificar o requisito de forma rastreável;
     - **Descrição:** explica a restrição ou regra que o sistema deve cumprir.
