@@ -82,7 +82,7 @@ Para garantir rastreabilidade e facilitar a validação dos requisitos ao longo 
         - **Valor Obrigatório:** se o campo é ou não obrigatório ser preenchido;
         - **Propriedade:** define as validações técnicas aplicadas ao campo (tamanho, unicidade, formato etc.). 
 
-- **Requisitos não funcionais** terão estrutura simples com identificador, descrição e categoria, focando em qualidades do sistema. Dessa forma, o modelo definido deve conter os campos conforme a ordem seguinte:
+- **Requisitos não funcionais** terão estrutura simples com identificador, descrição e categoria, focando em qualidades do sistema. Entretanto, nem todos os dados os campos precisam estar presentes. Dessa forma, o modelo definido deve conter os campos conforme a ordem seguinte:
 
     - **Identificador:** código único que permite identificar o requisito de forma rastreável;
     - **Descrição:** explica a qualidade que o sistema deve cumprir, sem estar diretamente relacionado a uma funcionalidade específica.
