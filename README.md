@@ -162,13 +162,14 @@ As issues são usadas para planejar, distribuir e acompanhar as atividades do pr
 - **Descrição:** estruturada com:
     - **História de Usuário**:  uma história de usuário, no formato **Como** [papel] **Quero** [ação], **Para** [finalidade].
     - **Requisitos Associados**: associação de requisitos na atividade, que podem ser **Requisitos Funcionais (RF)**, **Requisitos Não Funcioanis (RNF)** e **Regras de Negócio**;
-    - **Complemento**: campo opcional com informações extras para orientar o realizador da tarefa.
-- **Prioridade (Priority):** nível de urgência classificadas em:
+    - **Complemento:** campo opcional com informações extras para orientar o realizador da tarefa.
+- **Rótulos (Labels)**: Marcadores utilizados para classificar ou agrupar as atividades.
+- **Prioridade (Priority)**: nível de urgência classificadas em:
     - **P0:** crítica e bloqueia outras funcionalidades;
     - **P1:** importante, mas não bloqueia outras funcionalidades;
     - **P2:** pode ser feita depois, sem impacto imediato.
-- **Interação (Iteration):** a qual sprint/interação a tarefa pertence.
-- **Responsável (Assignees):** membro(s) atribuídos para executar a tarefa;
+- **Interação (Iteration)**: a qual sprint/interação a tarefa pertence.
+- **Responsável (Assignees)**: membro(s) atribuídos para executar a tarefa;
 - **Repositório (Repository)**: repositório associado à issue.
 
 ## Mecanismos de Garantia das Atividades e Rastreabilidade
