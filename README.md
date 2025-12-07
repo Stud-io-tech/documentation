@@ -161,7 +161,7 @@ As issues são usadas para planejar, distribuir e acompanhar as atividades do pr
 - **Título:** curto, descrevendo o que deve ser feito e referenciando o repositório para a sua construção;
 - **Descrição:** estruturada com:
     - **História de Usuário**:  uma história de usuário, no formato **Como** [papel] **Quero** [ação], **Para** [finalidade].
-    - **Requisitos Associados**: associação de requisitos na atividade, que podem ser **Requisitos Funcionais (RF)** e **Requisitos Não Funcioanis (RNF)**;
+    - **Requisitos Associados**: associação de requisitos na atividade, que podem ser **Requisitos Funcionais (RF)**, **Requisitos Não Funcioanis (RNF)** e **Regras de Negócio**;
     - **Complemento**: campo opcional com informações extras para orientar o realizador da tarefa.
 - **Prioridade (Priority):** nível de urgência classificadas em:
     - **P0:** crítica e bloqueia outras funcionalidades;
