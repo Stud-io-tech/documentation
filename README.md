@@ -173,9 +173,7 @@ As issues são usadas para planejar, distribuir e acompanhar as atividades do pr
     - **M:** funcionalidade moderada (ex: novo formulário);
     - **L:** alteração abrangente (ex: lógica com múltiplos arquivos);
     - **XL:** atividade complexa ou com pesquisa/investigação.
-- **Interação (Iteration):** a qual sprint/interação a tarefa pertence (deve durar entre 15 a 30 dias).
-- **Data de Início (Start Date):** data de inicial de execução.
-- **Data de Fim (End Date):** data limite de execução.
+- **Interação (Iteration):** a qual sprint/interação a tarefa pertence.
 - **Responsável (Assignees):** membro(s) atribuídos para executar a tarefa;
 - **Repositório (Repository)**: repositório associado à issue.
 
