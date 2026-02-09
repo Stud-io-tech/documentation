@@ -27,7 +27,6 @@ Neste contexto, o foco desta iteração é corrigir e aprimorar o que foi constr
 - Melhorias em lojas com adição de dados de horários, status de funcionamento, estimativa de precificação de frete por quilômetro rodado, endereço e chave pix. 
 - Melhorias em produtos com adição de informações de tempo de preparção e situação de perecibilidade;
 - Funcionalidade de gestão de carrinho com listas de itens de produto separados por grupo de lojas;
-- Mecanismos de controle de pedidos.
 
 Por outro lado, nesta fase não serão implementados:
 
